@@ -16,6 +16,12 @@ Before we begin, you'll need to install the following components:
 Installing PostgreSQL is highly recommended as it will improve response times when querying `msfrpcd` (Metasploit RPC
 daemon) for module information.
 
+# Installation
+
+To install pymetasploit, run `pip install git+https://github.com/rapid7/komand-pymetasploit.git`.
+
+The Rapid7 fork of pymetasploit is not yet available on PyPI.
+
 # Tutorial
 
 ## Starting `msfrpcd`
