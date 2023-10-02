@@ -1,0 +1,20 @@
+---
+info:
+  title: Komand Pymetasploit
+  description: A full-fledged msfrpc library for Metasploit framework.
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/komand-pymetasploit
+  x-cortex-tag: komand-pymetasploit
+  x-cortex-type: service
+  x-cortex-groups:
+  - target:eks
+  - strategy:cloud
+  - exposure:internal-ship
+  - status:deployed
+  x-cortex-domain-parents:
+  - tag: insightconnect
+openapi: 3.0.1
+servers:
+- url: "/"
